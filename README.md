@@ -30,6 +30,10 @@
 	- `JD_COOKIE`：账号1Cookie
 	- `JD_DUAL_COOKIE`：账号2Cookie(选填)
 	- `PUSH_KEY`：Server酱SCKEY
+	Secrets 填写格式
+新建secret名称为JD_COOKIE
+单账号为
+pt_pin=aaaaaa&pt_key=bbbbbbb
 * 点击`Star`，任务会自动执行，运行进度和结果可以在`Actions`页面查看；
 * 当任务运行完成时，会将运行结果和错误信息打包到`Artifacts`，可自行下载查看；
 * 如果配置了Server酱，运行结果会推送到微信；
